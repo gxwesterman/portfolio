@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Orange background with rounded corners -->
+  <rect width="100%" height="100%" rx="20" ry="20" fill="orange" />
+  <!-- "G" letter centered in black -->
+  <text x="50%" y="75%" font-family="Arial" font-size="120" font-weight="bold" fill="black" text-anchor="middle" alignment-baseline="middle">G</text>
+</svg>
