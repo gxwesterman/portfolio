@@ -31,8 +31,8 @@ export function Carousel() {
   return (
     <div className="w-full h-full overflow-hidden relative">
       <div className="absolute bg-gradient-to-r from-background z-10 w-10 h-full left-0"></div>
-        <div className="w-[505px] h-full relative">
-          <div className="flex items-center gap-5 animate-[slide_15s_linear_infinite] w-[300%] absolute left-0 top-0 h-full">
+        <div className="w-[505px] h-10 relative">
+          <div className="flex items-center gap-5 animate-[slide_15s_linear_infinite] w-[300%] absolute left-0 top-0 h-fit">
             {icons.map((icon) => 
               <div className="w-9 h-9 min-w-9 min-w-9 rounded-md overflow-hidden">{icon}</div>
             )}

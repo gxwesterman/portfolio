@@ -13,8 +13,8 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="w-auto h-auto">
         <ScrollArea className="w-full h-screen">
-          <div className="lg:flex lg:justify-between gap-20 px-20 mx-auto max-w-screen-xl">
-            <div className="flex justify-start items-start flex-col pt-25 lg:sticky h-fit w-1/2">
+          <div className="lg:flex lg:justify-between w-full gap-20 px-20 mx-auto max-w-screen-xl">
+            <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-start py-25">
               <div className="text-[40px] font-bold">Griffin Westerman</div>
               <div className="text-lg">Software Developer</div>
               <div className="space-y-5 mt-5 w-full">
@@ -27,7 +27,7 @@ function App() {
                 <Carousel />
               </div>
             </div>
-            <div className="space-y-10 lg:w-1/2 py-24 pt-80 lg:pt-24">
+            <div className="space-y-10 lg:w-1/2 lg:py-25">
               <div className="w-fit h-fit rounded-md">
                 <p>
                   Howdy y'all. I graduated from college in 2023, and I have worked as a Software Developer at Nagios since.
