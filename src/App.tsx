@@ -12,22 +12,22 @@ function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="w-auto h-auto">
-        <div className="grid grid-cols-2 gap-20">
-          <div className="flex justify-start items-start flex-col mt-25 pl-[50%]">
-            <div className="text-[40px] font-bold">Griffin Westerman</div>
-            <div className="text-lg">Software Developer</div>
-            <div className="space-y-5 mt-5 w-full">
-              <div className="flex items-center justify-start gap-5">
-                <GithubButton />
-                <LinkedinButton />
-                <EmailButton />
-                <ModeToggle />
+        <ScrollArea className="w-full h-screen">
+          <div className="lg:flex lg:justify-between gap-20 px-20 mx-auto max-w-screen-xl">
+            <div className="flex justify-start items-start flex-col pt-25 lg:sticky h-fit w-1/2">
+              <div className="text-[40px] font-bold">Griffin Westerman</div>
+              <div className="text-lg">Software Developer</div>
+              <div className="space-y-5 mt-5 w-full">
+                <div className="flex items-center justify-start gap-5 relative">
+                  <GithubButton />
+                  <LinkedinButton />
+                  <EmailButton />
+                  <ModeToggle />
+                </div>
+                <Carousel />
               </div>
-              <Carousel />
             </div>
-          </div>
-          <ScrollArea className="w-full max-h-screen py-25 pr-[30%]">
-            <div className="space-y-10 mx-2">
+            <div className="space-y-10 lg:w-1/2 py-24 pt-80 lg:pt-24">
               <div className="w-fit h-fit rounded-md">
                 <p>
                   Howdy y'all. I graduated from college in 2023, and I have worked as a Software Developer at Nagios since.
@@ -61,8 +61,8 @@ function App() {
                 </div>
               </div>
             </div>
-          </ScrollArea>
-        </div>
+          </div>
+        </ScrollArea>
       </div>
     </ThemeProvider>
   )
