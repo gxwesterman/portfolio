@@ -16,7 +16,7 @@ function App() {
           <div className="flex justify-start items-start flex-col mt-25 pl-[50%]">
             <div className="text-[40px] font-bold">Griffin Westerman</div>
             <div className="text-lg">Software Developer</div>
-            <div className="space-y-5 mt-5">
+            <div className="space-y-5 mt-5 w-full">
               <div className="flex items-center justify-start gap-5">
                 <GithubButton />
                 <LinkedinButton />
