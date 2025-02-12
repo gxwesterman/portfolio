@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { ModeToggle} from '@/components/mode-toggle'
 import { GithubButton} from '@/components/github-button'
 import { LinkedinButton} from '@/components/linkedin-button'
-import { EmailButton } from '@/components/email-button';
+import { EmailButton } from '@/components/email-button'
 import { Carousel } from '@/components/carousel'
 import { ScrollArea } from "@/components/ui/scroll-area"
 
