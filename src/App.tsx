@@ -11,10 +11,10 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <div className="w-auto h-auto">
-        <ScrollArea className="w-full h-screen">
-          <div className="lg:flex lg:justify-between w-full gap-20 px-20 mx-auto max-w-screen-xl">
-            <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-start py-25">
+      <div className="h-auto">
+        <ScrollArea className="h-screen">
+          <div className="lg:flex lg:justify-between w-screen gap-20 px-10 lg:px-20 mx-auto max-w-screen-xl">
+            <div className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-start lg:pt-25 py-10">
               <div className="text-[40px] font-bold">Griffin Westerman</div>
               <div className="text-lg">Software Developer</div>
               <div className="space-y-5 mt-5 w-full">
@@ -38,7 +38,7 @@ function App() {
                 <br/>
                 <p>I'm also a classically trained cellist and love the arts and the outdoors. Hmu if you wanna play tennis sometime.</p>
               </div>
-              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 flex gap-5 hover:scale-[1.02] transition-transform">
+              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 flex gap-5 hover:scale-[1.02] transition-transform text-sm lg:text-base">
                 <div className="text-foreground/70 font-bold min-w-20 max-w-20">August 2023 - Present</div>
                 <div className="space-y-2">
                   <div className="font-bold">Full Stack Software Developer - Nagios</div>
@@ -49,7 +49,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 flex gap-5 hover:scale-[1.02] transition-transform">
+              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 flex gap-5 hover:scale-[1.02] transition-transform text-sm lg:text-base">
                 <div className="text-foreground/70 font-bold min-w-20 max-w-20">Graduated May 2023</div>
                 <div className="space-y-2">
                   <div className="font-bold">Bachelor of Science in Computer Science - U of M</div>
