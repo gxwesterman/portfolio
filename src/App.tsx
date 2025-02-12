@@ -38,7 +38,7 @@ function App() {
                 <br/>
                 <p>I'm also a classically trained cellist and love the arts and the outdoors. Hmu if you wanna play tennis sometime.</p>
               </div>
-              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary flex gap-5 hover:scale-[1.02] transition-transform">
+              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 flex gap-5 hover:scale-[1.02] transition-transform">
                 <div className="text-foreground/70 font-bold min-w-20 max-w-20">August 2023 - Present</div>
                 <div className="space-y-2">
                   <div className="font-bold">Full Stack Software Developer - Nagios</div>
@@ -49,7 +49,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary flex gap-5 hover:scale-[1.02] transition-transform">
+              <div className="w-full h-fit rounded-md p-5 mb-5 bg-secondary/50 flex gap-5 hover:scale-[1.02] transition-transform">
                 <div className="text-foreground/70 font-bold min-w-20 max-w-20">Graduated May 2023</div>
                 <div className="space-y-2">
                   <div className="font-bold">Bachelor of Science in Computer Science - U of M</div>
