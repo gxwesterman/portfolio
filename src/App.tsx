@@ -43,8 +43,8 @@ function App() {
                 <div className="space-y-2">
                   <div className="font-bold">Full Stack Software Developer - Nagios</div>
                   <div className="ml-3 text-foreground/80">
-                    <li>Led the frontend overhaul of Nagios Log Server, rewriting a PHP codebase to a React app leveraging tailwind, shadcn, react router, and much more</li>
-                    <li>Co-led the complete overhaul of Nagios Log Server, converting an Elasticsearch backend to Opensearch, and modernizing the UI and UX</li>
+                    <li>Led the frontend overhaul of Nagios Log Server, rewriting a PHP codebase to a React app leveraging tailwind, shadcn, react router, etc.</li>
+                    <li>Co-led the complete overhaul of Nagios Log Server, converting an Elasticsearch backend to Opensearch, and redesigning the UI and UX</li>
                     <li>Developed numerous features and resolved even more bugs for the Nagios suite of products, consistently working with both the frontend and backend</li>
                   </div>
                 </div>
