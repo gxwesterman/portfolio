@@ -27,7 +27,7 @@ function App() {
                 <Carousel />
               </div>
             </div>
-            <div className="space-y-10 lg:w-1/2 lg:pt-25 pb-10">
+            <div className="space-y-10 lg:w-1/2 lg:pt-25 pb-20">
               <div className="w-fit h-fit rounded-md">
                 <p>
                   Howdy y'all. I graduated from college in 2023, and I have worked as a Software Developer at Nagios since.
